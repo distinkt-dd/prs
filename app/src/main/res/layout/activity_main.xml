@@ -20,8 +20,8 @@
 
     <GridLayout
         android:id="@+id/gridLayout"
-        android:layout_width="389dp"
-        android:layout_height="210dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:alignmentMode="alignMargins"
         android:columnCount="5"
         android:columnOrderPreserved="false"
@@ -29,10 +29,9 @@
         android:rowCount="4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvStudentInfo"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/tvStudentInfo">
+
         <EditText
             android:id="@+id/etNum1"
             android:layout_width="0dp"
