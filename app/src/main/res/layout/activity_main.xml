@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvStudentInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Демаков Д.М. Т-433901-НТ"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Кнопка 1 (Toast 2 сек)"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Кнопка 2 (Toast 3.5 сек)"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Кнопка 3 (Диалог)"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Кнопка 4 (Тест)"
+        android:layout_marginBottom="24dp"/>
+
+</LinearLayout>
