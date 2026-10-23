@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- ФИО и группа — только отображение -->
+    <TextView
+        android:id="@+id/tvFio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fio"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/group"
+        android:textSize="18sp" />
+
+    <!-- Кнопки открытия экранов -->
+    <Button
+        android:id="@+id/btnMorning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Открыть окно «Утро»" />
+
+    <Button
+        android:id="@+id/btnDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Открыть окно «День»" />
+
+    <Button
+        android:id="@+id/btnEvening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Открыть окно «Вечер»" />
+
+    <Button
+        android:id="@+id/btnNight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Открыть окно «Ночь»" />
+
+</LinearLayout>
